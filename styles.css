@@ -1,0 +1,33 @@
+tr:first-child {
+    background-color: 	#836FFF;
+    color: white;
+    border: none;
+  }
+  td, th {
+    padding: 10px;
+    text-align: start;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+   
+  tr:nth-child(odd):not(:first-child) {
+    background-color: #DA70D6;
+  }
+  #tiktok{
+    background-color: #FF0050;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  #insta{
+    background-color: #EA0C5F;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  tr:hover:not(:first-child) {
+      background-color: #87CEEB;
+    }
+  
